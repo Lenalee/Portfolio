@@ -57,3 +57,81 @@ body {
         width: 70vw; 
     }
 }
+
+.projectlink:hover {
+    text-decoration: none; /* Ensures underline is not shown on hover */
+    border-bottom: 2px solid #4192D8; /* Specify the style as 'solid' */
+}
+
+.projectlink {
+    text-decoration: none; /* Removes underline from all links with class 'projectlink' */
+    color: #4192D8; /* Set your desired normal color here */
+}
+
+.projectlink .link-text + img {
+    margin-left: 8px; /* Adds space between the text and the icon */
+}
+/*JUst margin @media print {
+    .sidebar{
+        width: 20vw;
+        margin-right: 20px;
+    }
+    .content{
+        margin-left: 25vw;
+    }
+ 
+    .header{
+        margin-top: 1vh;
+        margin-bottom: 0.5vh;
+
+    }
+    .aboutme{
+        margin: 1vh;
+    }
+    .mainPage{
+        margin-bottom: 2vh;
+        padding-bottom: 2vh;
+        
+    }
+    
+} */
+
+@media print {
+    .sidebar{
+        width: 20vw;
+        height: 400px;
+        float: left;
+        margin-right: 20px;
+        position: absolute;
+        left: 5vw;
+    }
+    .content{
+        margin-left: 5vw;
+        width: auto; 
+        overflow: hidden; 
+        text-align: justify;
+        clear: both;
+    }
+ 
+    .header{
+        margin-top: 1vh;
+        margin-bottom: 0.5vh;
+
+    }
+    .aboutme{
+        margin: 1vh;
+    }
+    .mainPage{
+        margin-bottom: 2vh;
+        padding-bottom: 2vh;
+        
+    }
+    .clear {
+        clear: both;
+    }
+    .startdiv {
+        width: 65vw;
+        margin-left: 23vw;
+        margin-bottom: 2vh;
+    }
+}
