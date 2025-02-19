@@ -1,12 +1,4 @@
 
-.profile-image {
-    width: 20vw; /* Makes the image responsive */
-    height: auto; /* Keeps the aspect ratio */
-    display: block; /* Avoids inline spacing issues */
-    margin-bottom: 2vh; /* Space after the image */
-    margin-right: auto; /* Automatically adjusts the left margin */
-    margin-left: auto; /* Automatically adjusts the right margin */
-}
 
 .sidebar-nav {
     list-style-type: none; /* remove default list styling */
@@ -37,12 +29,25 @@
     text-decoration: none; /* Removes underline from links */
 }
 
-
+.profile-image {
+    width: 20vw;
+    /* Makes the image responsive */
+    height: auto;
+    /* Keeps the aspect ratio */
+    display: block;
+    /* Avoids inline spacing issues */
+    margin-bottom: 2vh;
+    /* Space after the image */
+    margin-right: auto;
+    /* Automatically adjusts the left margin */
+    margin-left: auto;
+    /* Automatically adjusts the right margin */
+}
 .nameMail{
     text-align: center; /* Centers text within the container */
 }
 .sidebar-icons a {
-    margin: 0 0.5em; /* Adds horizontal space between icons using em */
+    margin: 0 0.3em; /* Adds horizontal space between icons using em */
     display: inline-block; /* Allows inline placement of icons */
     vertical-align: middle; /* Aligns icons to the middle if they are of different heights */
 }

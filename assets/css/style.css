@@ -19,11 +19,7 @@ body {
     height: 100vh; /* Sets body to full viewport height */
     padding: 0; 
 }
-.mainPage{
-    padding-bottom: 12vh;
-    /* padding-top: 2vh; */
 
-}
 .header{
     display: flex; 
     align-items: center; 
@@ -45,7 +41,6 @@ body {
     margin-bottom: 2vh;
 
 }
-
 
 @media (max-width: 768px) { /* small screen */
     .content {
