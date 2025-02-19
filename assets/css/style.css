@@ -97,22 +97,26 @@ body {
 } */
 
 @media print {
-    .sidebar{
-        width: 20vw;
-        height: 400px;
-        float: left;
-        margin-right: 20px;
-        position: absolute;
-        left: 5vw;
-    }
-    .content{
-        margin-left: 5vw;
-        width: auto; 
-        overflow: hidden; 
-        text-align: justify;
-        clear: both;
-    }
- 
+    .profile-image {
+            width: 20vw;
+        }
+
+        .sidebar {
+            width: 20vw;
+            position: fixed;
+            left: 5vw;
+            top: 8vh;
+            /* Increased to match content start */
+            margin-right: 20px;
+        }
+    
+        .content {
+            margin-left: 2vw;
+            margin-right: 5vw;
+            margin-top: 8vh;
+            /* Match the sidebar's top margin */
+        }
+
     .header{
         margin-top: 1vh;
         margin-bottom: 0.5vh;
@@ -131,7 +135,6 @@ body {
     }
     .startdiv {
         width: 65vw;
-        margin-left: 23vw;
         margin-bottom: 3vh;
     }
 }

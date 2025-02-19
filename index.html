@@ -9,10 +9,47 @@ permalink: /
     <h1 class="aboutme">About me</h1>    
 
     <div >
-    I am a data science enthusiast with a background in computer graphics, actively enhancing my expertise through diverse projects and continuous study. My academic foundation and practical experience have cultivated a deep passion for machine learning and data visualization. I am dedicated to deciphering complex data to reveal compelling narratives. As a proactive learner, I excel in both team-oriented and independent environments, eager to contribute to cutting-edge data science innovations.
+
+      
+    I am an AI enthusiast with a strong background in generative AI, actively enhancing my expertise
+    through diverse projects and continuous study. My academic foundation and practical experience have cultivated a deep
+    passion for generative AI, automation and machine learning. I specialize in developing and fine-tuning models to solve complex problems, leveraging tools like OpenAI and AWS to
+    create innovative solutions. As a proactive learner, I thrive in both collaborative and independent settings, eager to
+    contribute to groundbreaking AI innovations and drive digital transformation.
     </div>
 
-   
+
+    <div class="header">
+        <img height="20" style="margin: 0;" src="{{ site.baseurl }}/assets/images/job.png">
+        <h2 style="margin: 0.5rem;">EXPERIENCES</h2>
+    </div>
+
+    <div style="display: flex; justify-content: space-between;">
+        <div>AI Developer</div>
+        <div>2024 - Present</div>
+    </div>
+    <div style="color:gray;"> Alpha Analytics s.r.o. </div>
+    Working as part of the team developing AI systems and automation tools for the company.
+    Specializing in designing and implementing AI-driven solutions to enhance business processes and data management.
+    Engaging
+    with various teams to develop tailored tools that meet specific departmental needs.
+    Engaging with company leadership to align AI initiatives with strategic business objectives and ensure impactful
+    outcomes.
+    Demonstrating expertise in leveraging OpenAI and AWS technologies to create innovative prototypes and production-ready
+    applications.
+    Contributing to the company's digital transformation by automating workflows and providing actionable insights through
+    AI.
+
+    <br><br>
+    <div style="display: flex; justify-content: space-between;">
+        <div>JavaScript Programmer</div>
+        <div>2018</div>
+    </div>
+    <div style="color:gray;"> Czech Technical University in Prague </div>
+
+    Developed and optimized web-based animations for molecular structures, focusing on the Singlet Fission Rate project.
+    Achieved optimized packing of molecular pairs, using ethylene as a model, to enhance the educational and interactive
+    experience of the web program.
 
     <div class="header">
         <img height="20" style="margin: 0;" src="{{ site.baseurl }}/assets/images/edu.png">
@@ -21,7 +58,7 @@ permalink: /
     
         <div style="display: flex; justify-content: space-between;">
             <div style="font-weight: bold;">Data Science Path</div>
-            <div >2023 - Present</div>
+            <div >2023 - 2024</div>
         </div>
         <div > 
             Engaging in projects to advance my data science skills.
@@ -62,13 +99,22 @@ permalink: /
         <h2 style="margin: 0.5rem;" >SKILLS</h2>
         </div>
 
-        <div >
-            <b>Python</b>: Proficiency in data science libraries (Scikit-learn, PyTorch, Hugging Face, Pandas, NumPy); experienced in Jupyter Notebook for project development.
-        <br><b>C++</b>: Solid background in game development; utilized extensively during academic projects.
-        <br><b>C#</b>: Used in game development and academic projects.
-        <br><b>JavaScript</b>: Developed interactive web showcases and integrated web assembly for dynamic web applications.
-        <br><b>APIs</b>: Proficient in using REST APIs to fetch and manipulate data for web-based applications.
+
+
+        <div>
+            <b>AI & Machine Learning</b>: Extensive experience with OpenAI APIs, GPT models, and fine-tuning; proficient in
+            transfer learning and model optimization.
+            <br><b>Python</b>: Advanced proficiency in ML/AI libraries (PyTorch, Hugging Face, Scikit-learn, Pandas, NumPy);
+            experienced in Jupyter Notebook for development.
+            <br><b>Cloud & Infrastructure</b>: AWS services for production AI pipelines; experience
+            with scalable AI solutions.
+            <br><b>Development Tools</b>: Streamlit for rapid AI prototyping and web applications; Salesforce integration; REST
+            APIs implementation.
+            <br><b>Integration & APIs</b>: Experience connecting multiple systems (Salesforce, Airtable, Daktela);
+            <br><b>Additional Skills</b>: C++/C# (game development), JavaScript (web development).
         </div>
+
+     
     
     <div class="header">
         <img height="20" style="margin: 0;" src="{{ site.baseurl }}/assets/images/ds.png">
@@ -77,67 +123,72 @@ permalink: /
 
    
 
-{% include projectDesc.html 
-    name="Sentiment Analysis for Amazon Products"
-    source="https://www.kaggle.com/code/lachimolalala/understanding-ratings-through-sentiment"
-    tools="Python, NRCLex, Scikit-learn, NLTK, WordCloud, Transformers" 
-    %}
-  <ul>
-       <li>Analyzed Amazon's toy category to uncover the impact of seller information, product descriptions, and customer reviews on product ratings. </li>
-       <li>Analyzed the relationship between textual content and ratings, providing actionable insights for sellers to optimize product offerings. </li>
-       <li>Revealed key sentiment and emotional factors influencing customer reviews and ratings, suggesting strategies for enhancing overall product quality and customer satisfaction.</li>
-</ul>
-
-
-{% include projectDesc.html 
-    name="Music Sheet Deblurring Model "
-    source="https://gitlab.com/games6441628/music-sheet-unblur"
-    tools="Python, PyTorch, CNN" 
- %}
+{% include projectDesc.html
+name="Automated Vehicle Feature Recognition"
+tools="Python, OpenAI, Perplexity AI, AWS, PyTorch, ConvNextv2"
+%}
 <ul>
-   <li>Constructed a unique dataset of 76,000 image pairs using Gaussian blur to simulate image degradation. </li>
-   <li>Developed a CNN model to deblur images of music sheets, aimed at restoring clarity to musical notations. </li>
-   <li> The model effectively corrects minor blurs, showcasing readiness for real-world application and potential for adaptation to varied music note sizes. </li>
- 
+    <li>Help on improving a hierarchical neural network system for automated vehicle feature detection using transfer
+        learning </li>
+    <li>Engineered an end-to-end pipeline for automated dataset creation and labeling using Perplexity AI and OpenAI
+    </li>
+    <li>Added new classifiers on top of pre-trained feature extractors for specific vehicle characteristics
+    </li>
+    <li>Improved system efficiency through code optimization</li>
 </ul>
 
+{% include projectDesc.html
+name="Automated Call Processing and Integration System"
+tools=" OpenAI, Salesforce, Daktela API, AWS: Transcribe, Lambdas, SQS"
+%}
+<ul>
+    <li>Developed an automated pipeline to process company calls, transcribing, summarizing, translating (to Czech if
+    necessary), classifying, and analyzing sentiment.
+    </li>
+    <li>Integrated the processed call data into Salesforce, creating call tasks and automatically assigning them to relevant
+    opportunities.
+    </li>
+    <li>Utilized AWS technologies, including AWS Transcribe, Lambda, and SQS, for pipeline implementation, and leveraged OpenAI
+    for call processing and classification.
+    </li>
+    <li>Retrieved call data from Daktela using their API, completing the project independently with minimal DevOps support for
+    AWS setup.
+    </li>
+</ul>
+
+{% include projectDesc.html
+name="Interactive Opportunity Navigation Chatbot"
+tools="OpenAI GPT-4o, Salesforce, Airtable, Streamlit"
+%}
+<ul>
+<li>Created a chatbot prototype using OpenAI's GPT-4o to simplify navigation through company opportunities.</li>
+<li>Aggregated data from Salesforce and Airtable, allowing users to interactively inquire about specific orders.</li>
+<li>The chatbot retrieves and presents relevant information efficiently, citing sources and providing IDs for faster
+information access.</li>
+<li>Enabled access to previously unavailable cross-source insights, with the prototype built on Streamlit and ready for
+integration into Salesforce.</li>
+</ul>
+
+{% include projectDesc.html
+name="Car Advertisement Description Generator"
+tools="OpenAI GPT-4o-mini, Streamlit"
+%}
+<ul>
+<li>Developing a tool to generate descriptions for car advertisements, with the project still ongoing.</li>
+<li>Distilled the OpenAI GPT-4o-mini model to enhance the quality of generated descriptions.</li>
+<li>Created a quick prototype using Streamlit for company testing and feedback.</li>
+</ul>
 
 {% include projectDesc.html 
-    name="Anime Recommendation Systems"
-    source="https://www.kaggle.com/code/lachimolalala/anime-recommendation-system"
-    tools="Python, TF-IDF, CountVectorizer, Numpy, Pandas, Scikit-learn" 
- %}
+name="Car Inspection Report Generator"
+tools="Streamlit, OpenAI"
+%}
 <ul>
-   <li>Developed four distinct anime recommender systems: one harnessing TF-IDF for matching by plot similarities, another employing CountVectorizer to analyze various anime characteristics.  <br> </li>
-   <li>Implemented Pearson and Cosine collaborative filtering techniques to align suggestions with user tastes. <br></li>
-   <li> Evaluated all systems using real-world user data acquired directly from MyAnimeList's API.</li>
+<li>Developed a Streamlit web page to assist the team in generating car inspection report texts.</li>
+<li>Replaced predefined sentences with an interactive environment where users input inspection data to generate unique text.</li>
+<li>Utilized Streamlit and OpenAI to create a dynamic and user-friendly interface.</li>
 </ul>
 
-
-{% include projectDesc.html 
-    name="Visualization of Neural Networks"
-    source="https://gitlab.com/games6441628/visualization-of-nn"
-    tools="JavaScript, Python, PCA, t-SNE, UMAP" 
-    %}
-<ul>
-    <li> Created an interactive web visualization for MNIST dataset analysis using dimensionality reduction, highlighting neural network accuracy. </li>
-    <li> Provided intuitive controls for users to isolate data points, assess correct/incorrect predictions, and view digit classifications. </li>
-    <li> Featured a dynamic, clickable interface to explore prediction details and neural network confidence levels for each digit.</li>
-</ul>
-
-
-    <div class="header">
-        <img height="20" style="margin: 0;" src="{{ site.baseurl }}/assets/images/job.png">
-        <h2 style="margin: 0.5rem;" >EXPERIENCES</h2>
-    </div>
-    <div style="display: flex; justify-content: space-between;">
-        <div>JavaScript Programmer</div>
-        <div>2018</div>
-    </div>
-    <div style="color:gray;"> Czech Technical University in Prague </div>
-
-        Developed and optimized web-based animations for molecular structures, focusing on the Singlet Fission Rate project. Achieved optimized packing of molecular pairs, using ethylene as a model, to enhance the educational and interactive experience of the web program.
-    
     <div class="header">
     <img height="20" style="margin: 0;" src="{{ site.baseurl }}/assets/images/cert.png">
     <h2 style="margin: 0.5rem;" >CERTIFICATIONS</h2>

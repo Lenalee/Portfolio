@@ -1,6 +1,14 @@
 <!-- _includes/projectDesc.html -->
-
 <div style="font-weight: bold; display: flex; align-items: center; color: #414041;">
+  <span>{{ include.name }}</span>
+  <div style="margin: 0 10px; align-self: stretch; position: relative;">
+    <span
+      style="position: absolute; left: 0; top: 0; bottom: 0; border-left: 2px solid #414041; content: ''; display: block;"></span>
+  </div>
+  <span>{{ include.tools }}</span>
+</div>
+
+<!-- <div style="font-weight: bold; display: flex; align-items: center; color: #414041;">
     <span>{{ include.name }}</span>
     <div style="margin: 0 10px; align-self: stretch; position: relative;">
       <span style="position: absolute; left: 0; top: 0; bottom: 0; border-left: 2px solid #414041; content: ''; display: block;"></span>
@@ -15,4 +23,4 @@
       <span style="position: absolute; left: 0; top: 0; bottom: 0; border-left: 2px solid #414041; content: ''; display: block;"></span>
     </div>
     <span>{{ include.tools }}</span>
-  </div>
+  </div> -->
