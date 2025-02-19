@@ -96,11 +96,10 @@ body {
     
 } */
 .startdiv{
-    margin-left: 30vw; /* 25 sidebar width + 5 for open space */
+    margin-right: 30vw; /* 25 sidebar width + 5 for open space */
 }
-.lower-part{
-    margin-top: 10vh;
- }
+
+
 /*
 @media print {
     .profile-image {
