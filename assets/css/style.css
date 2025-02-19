@@ -7,7 +7,7 @@
 
 .content {
     flex-grow: 1; /* Takes the remaining width */
-    margin-left: 30vw; /* 25 sidebar width + 5 for open space */
+    margin-left: 5vw; /* 25 sidebar width + 5 for open space */
     margin-right: 5vw; /* Equal to the width of the sidebar */
     font-family: 'Noto Sans', sans-serif;
     
@@ -95,7 +95,13 @@ body {
     }
     
 } */
-
+.startdiv{
+    margin-left: 30vw; /* 25 sidebar width + 5 for open space */
+}
+.lower-part{
+    margin-top: 10vh;
+ }
+/*
 @media print {
     .profile-image {
             width: 20vw;
@@ -106,7 +112,6 @@ body {
             position: fixed;
             left: 5vw;
             top: 8vh;
-            /* Increased to match content start */
             margin-right: 20px;
         }
     
@@ -114,7 +119,6 @@ body {
             margin-left: 2vw;
             margin-right: 5vw;
             margin-top: 8vh;
-            /* Match the sidebar's top margin */
         }
 
     .header{
@@ -137,4 +141,4 @@ body {
         width: 65vw;
         margin-bottom: 3vh;
     }
-}
+} */
